@@ -1,0 +1,950 @@
+---- my script:damn hub
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "it working";
+    Text = "it working"; 
+    Duration = 2;
+    Button1 = "W bro";
+})
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("damn hub", "BloodTheme")
+
+local StarterGui = game:GetService("StarterGui")
+local ch = game.Players.LocalPlayer
+
+local Tab1 = Window:NewTab("warrior simulator")
+local Tab2 = Window:NewTab("Gui")
+local Tab3 = Window:NewTab("Esp")
+local Tab10 = Window:NewTab("Settings")
+local negas = Window:NewTab("Cridets")
+local Tab1Section = Tab1:NewSection("Kill Aura: Bug Fixed")
+local Tab2Section = Tab2:NewSection("Gui")
+local Tab3Section = Tab3:NewSection("Tracer")
+local Tab10Section = Tab10:NewSection("UI")
+local negasSection = negas:NewSection("Made by: Rvv476")
+
+
+Tab1Section:NewButton("Kill Aura: ON", "ButtonInfo", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Kill Aura: ON";
+    Text = "Kill Aura: ON"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.negas =  true;
+
+while _G.negas==true do
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+end
+end)
+
+Tab1Section:NewButton("Kill Aura: OFF", "ButtonInfo", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Kill Aura: OFF";
+    Text = "Kill Aura: OFF"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.negas =  false;
+
+while _G.negas==true do
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+game.ReplicatedStorage.Remotes.Weapon.TakeDamage:FireServer()
+wait(.0000000000000000000000000)
+end
+end)
+
+Tab1Section:NewLabel("Anti Walk Zombie and Anti Walk Zombie v2: Bug Fixed")
+
+Tab1Section:NewButton("Anti Walk Zombie: ON", "automatic", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Anti Walk Zombie: ON";
+    Text = "Anti Walk Zombie: ON"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.GsG = true;
+while _G.GsG==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.Sit = true
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewButton("Anti Walk Zombie: OFF", "OFF", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Anti Walk Zombie: OFF";
+    Text = "Anti Walk Zombie: OFF"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.GsG = false;
+while _G.GsG==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.Sit = true
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewButton("Anti Walk Zombie v2: ON", "ON", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Anti Walk Zombie v2: ON";
+    Text = "Anti Walk Zombie v2: ON"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.GG = true;
+while _G.GG==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.PlatformStand = true
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewButton("Anti Walk Zombie v2: OFF", "OFF", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Anti Walk Zombie v2: OFF";
+    Text = "Anti Walk Zombie v2: OFF"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.GG = false;
+while _G.GG==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.PlatformStand = true
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewLabel("Kill All Zombie: wait wave 6-8, Bug Fixed")
+
+Tab1Section:NewButton("Kill All Zombie: ON", "automatic", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Kill All Zombie: ON";
+    Text = "Kill All Zombie: ON"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.G = true;
+while _G.G==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.Health = 0
+end
+end
+end
+end)
+end
+end)
+
+
+Tab1Section:NewButton("Kill All Zombie: OFF", "OFF", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Kill All Zombie: OFF";
+    Text = "Kill All Zombie: OFF"; 
+    Duration = 0.5;
+    Button1 = "OK BRO";
+})
+_G.G = false;
+while _G.G==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Humanoid" then
+v.Health = 0
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewLabel("Auto Mobs: Bug Fixed")
+
+Tab1Section:NewButton("Auto Mobs: ON", "automatic", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Auto Mobs: ON";
+    Text = "Auto Mobs: ON"; 
+    Duration = 0.5;
+    Button1 = "OK";
+})
+_G.L = true;
+while _G.L==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Part" then
+local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(000000000000000000000), {CFrame = v.CFrame + Vector3.new(0,5,0)})
+tween:Play()
+end
+end
+end
+end)
+end
+end)
+
+Tab1Section:NewButton("Auto Mobs: OFF", "automatic", function()
+StarterGui:SetCore("SendNotification", {
+    Title = "Auto Mobs: OFF";
+    Text = "Auto Mobs: OFF"; 
+    Duration = 0.5;
+    Button1 = "OK";
+})
+_G.L = false;
+while _G.L==true do wait()
+pcall(function()
+for i,v in pairs(game.Workspace.Battle:GetChildren()) do
+for i,v in pairs(game:GetService("Workspace").Battle[i].Enemy:GetDescendants()) do
+    if v.ClassName == "Part" then
+local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.5), {CFrame = v.CFrame + Vector3.new(0,5,0)})
+tween:Play()
+end
+end
+end
+end)
+end
+end)
+
+Tab10Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F1, function()
+	Library:ToggleUI()
+end)
+
+Tab10Section:NewLabel("Character")
+
+Tab10Section:NewSlider("WalkSpeed", "SliderInfo", 150, 0, function(bolbol) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = bolbol
+end)
+
+Tab10Section:NewSlider("JumpPower", "SliderInfo", 200, 0, function(boliboli) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = boliboli
+end)
+
+Tab10Section:NewSlider("HipHeight", "SliderInfo", 50, 0, function(bulbul) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.HipHeight = bulbul
+end)
+
+Tab10Section:NewTextBox("WalkSpeed", "SliderInfo", function(bolbo)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = bolbo
+end)
+
+Tab10Section:NewTextBox("JumpPower", "SliderInfo", function(bolibol)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = bolibol
+end)
+
+Tab10Section:NewTextBox("HipHeight", "SliderInfo", function(bulbu)
+    game.Players.LocalPlayer.Character.Humanoid.HipHeight = bulbu
+end)
+
+Tab10Section:NewButton("Reset W,J,H", "ToggleInfo", function()
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 0
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Tab2Section:NewButton("Infinite yield", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("aimbot", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobCheatEngine.lua'))()
+end)
+
+Tab2Section:NewButton("Damn hub v?", "ButtonInfo", function()
+if game:GetService("CoreGui"):FindFirstChild("print") then
+game:GetService("CoreGui"):FindFirstChild("print"):Destroy()
+end
+local print = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Kill = Instance.new("TextButton")
+local Kil = Instance.new("TextButton")
+local Ki = Instance.new("TextButton")
+local K = Instance.new("TextButton")
+local Ko = Instance.new("TextButton")
+local o = Instance.new("TextButton")
+local q = Instance.new("TextButton")
+local qw = Instance.new("TextButton")
+local w = Instance.new("TextButton")
+local normgravity = Instance.new("TextButton")
+local norravity = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local Target = Instance.new("TextBox")
+local plyr = game:GetService("Players").LocalPlayer
+print.Name = "print"
+print.Parent = game:GetService("CoreGui")
+Frame.Name = "Frame"
+Frame.Parent = print
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.0630208328, 600, 0.196662694, -250)
+Frame.Size = UDim2.new(0, 0, 0, 217)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient.Parent = Frame
+Kill.Name = "noGravity"
+Kill.Parent = Frame
+Kill.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Kill.Position = UDim2.new(0.278481007, -246, 0.662157595, 0)
+Kill.Size = UDim2.new(0, 245, 0, 27)
+Kill.Text = "goto"
+Kill.TextColor3 = Color3.fromRGB(161, 161, 161)
+Kill.TextScaled = true
+Kill.TextSize = 20.000
+Kill.TextWrapped = true
+Kil.Name = "noGravity"
+Kil.Parent = Frame
+Kil.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Kil.Position = UDim2.new(0.278481007, -246, 0.422157595, 0)
+Kil.Size = UDim2.new(0, 245, 0, 27)
+Kil.Text = "aimbot"
+Kil.TextColor3 = Color3.fromRGB(161, 161, 161)
+Kil.TextScaled = true
+Kil.TextSize = 20.000
+Kil.TextWrapped = true
+Ki.Name = "noGravity"
+Ki.Parent = Frame
+Ki.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Ki.Position = UDim2.new(0.278481007, -246, 0.922157595, 0)
+Ki.Size = UDim2.new(0, 245, 0, 27)
+Ki.Text = "ON cfly"
+Ki.TextColor3 = Color3.fromRGB(161, 161, 161)
+Ki.TextScaled = true
+Ki.TextSize = 20.000
+Ki.TextWrapped = true
+K.Name = "noGravity"
+K.Parent = Frame
+K.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+K.Position = UDim2.new(0.278481007, -246, 0.922157595, 0)
+K.Size = UDim2.new(0, 245, 0, 27)
+K.Text = "OFF cfly"
+K.TextColor3 = Color3.fromRGB(161, 161, 161)
+K.TextScaled = true
+K.TextSize = 20.000
+K.TextWrapped = true
+K.Visible = false
+Ko.Name = "noGravity"
+Ko.Parent = Frame
+Ko.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Ko.Position = UDim2.new(0.278481007, 0, 0.539105186, 0)
+Ko.Size = UDim2.new(0, 245, 0, 27)
+Ko.Text = "cframefly - F3"
+Ko.TextColor3 = Color3.fromRGB(161, 161, 161)
+Ko.TextScaled = true
+Ko.TextSize = 20.000
+Ko.TextWrapped = true
+Ko.Visible = false
+o.Name = "noGravity"
+o.Parent = Frame
+o.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+o.Position = UDim2.new(0.278481007, -246, 0.792157595, 0)
+o.Size = UDim2.new(0, 245, 0, 27)
+o.Text = "Noclip"
+o.TextColor3 = Color3.fromRGB(161, 161, 161)
+o.TextScaled = true
+o.TextSize = 20.000
+o.TextWrapped = true
+q.Name = "noGravity"
+q.Parent = Frame
+q.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+q.Position = UDim2.new(0.278481007, -246, 0.792157595, 0)
+q.Size = UDim2.new(0, 245, 0, 27)
+q.Text = "UnNoclip"
+q.TextColor3 = Color3.fromRGB(161, 161, 161)
+q.TextScaled = true
+q.TextSize = 20.000
+q.TextWrapped = true
+q.Visible = false
+qw.Name = "noGravity"
+qw.Parent = Frame
+qw.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+qw.Position = UDim2.new(0.278481007, -492, 0.539105186, 0)
+qw.Size = UDim2.new(0, 245, 0, 27)
+qw.Text = "Noclip - F1"
+qw.TextColor3 = Color3.fromRGB(161, 161, 161)
+qw.TextScaled = true
+qw.TextSize = 20.000
+qw.TextWrapped = true
+qw.Visible = false
+w.Name = "noGravity"
+w.Parent = Frame
+w.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+w.Position = UDim2.new(0.278481007, -246, 0.539105186, 0)
+w.Size = UDim2.new(0, 245, 0, 27)
+w.Text = "cfly - F2"
+w.TextColor3 = Color3.fromRGB(161, 161, 161)
+w.TextScaled = true
+w.TextSize = 20.000
+w.TextWrapped = true
+w.Visible = false
+normgravity.Name = "normalGravity"
+normgravity.Parent = Frame
+normgravity.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+normgravity.Position = UDim2.new(0.278481007, -700, 0.662157595, 325)
+normgravity.Size = UDim2.new(0, 95, 0, 24)
+normgravity.Text = "Next"
+normgravity.TextColor3 = Color3.fromRGB(161, 161, 161)
+normgravity.TextScaled = true
+normgravity.TextSize = 20.000
+norravity.Name = "normalGravity"
+norravity.Parent = Frame
+norravity.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+norravity.Position = UDim2.new(0.278481007, -700, 0.662157595, 325)
+norravity.Size = UDim2.new(0, 95, 0, 24)
+norravity.Text = "Back"
+norravity.TextColor3 = Color3.fromRGB(161, 161, 161)
+norravity.TextScaled = true
+norravity.TextSize = 20.000
+norravity.Visible = false
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Close.Position = UDim2.new(0.278481007, -700, 0.662157595, 300)
+Close.Size = UDim2.new(0, 95, 0, 24)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(161, 161, 161)
+Close.TextSize = 20.000
+Open.Name = "Open"
+Open.Parent = Frame
+Open.BackgroundColor3 = Color3.fromRGB(152, 0, 2)
+Open.Position = UDim2.new(0.278481007, -700, 0.662157595, 300)
+Open.Size = UDim2.new(0, 95, 0, 24)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(161, 161, 161)
+Open.TextSize = 20.000
+Open.Visible = false
+Target.Name = "Speed"
+Target.Parent = Frame
+Target.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Target.Position = UDim2.new(0.278481007, -246, 0.539105186, 0)
+Target.Size = UDim2.new(0, 245, 0, 27)
+Target.Font = Enum.Font.SourceSans
+Target.PlaceholderColor3 = Color3.fromRGB(218, 218, 218)
+Target.PlaceholderText = "Name or DisplayName"
+Target.Text = ""
+Target.TextColor3 = Color3.fromRGB(218, 218, 218)
+Target.TextSize = 14.50
+
+Target.FocusLost:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+if (string.sub(string.lower(v.Name),1,string.len(Target.Text))) == string.lower(Target.Text) or (string.sub(string.lower(v.DisplayName),1,string.len(Target.Text))) == string.lower(Target.Text) then
+Target.Text = v.Name
+end
+end
+end)
+
+local RunService = game:GetService("RunService")
+local delta = RunService.RenderStepped:Wait()
+local StarterGui = game:GetService("StarterGui")
+
+
+normgravity.MouseButton1Click:Connect(function()
+Kill.Visible = false
+Kil.Visible = false
+Target.Visible = false
+Ki.Visible = false
+Ko.Visible = true
+qw.Visible = true
+w.Visible = true
+o.Visible = false
+norravity.Visible = true
+normgravity.Visible = false
+end)
+
+norravity.MouseButton1Click:Connect(function()
+Kill.Visible = true
+Kil.Visible = true
+Target.Visible = true
+Ki.Visible = true
+Ko.Visible = false
+qw.Visible = false
+w.Visible = false
+o.Visible = true
+normgravity.Visible = true
+norravity.Visible = false
+end)
+
+Close.MouseButton1Click:Connect(function()
+ Kill.Visible = false
+ Kil.Visible = false  
+ Ki.Visible = false  
+ o.Visible = false  
+ normgravity.Visible = false 
+ norravity.Visible = false 
+ Close.Visible = false
+ Open.Visible = true 
+ Target.Visible = false
+end)
+
+Open.MouseButton1Click:Connect(function()
+ Kill.Visible = true
+ Kil.Visible = true
+ Ki.Visible = true  
+ o.Visible = true  
+ normgravity.Visible = true 
+ norravity.Visible = true 
+ Close.Visible = true
+ Open.Visible = false 
+ Target.Visible = true
+end)
+
+Kill.MouseButton1Click:Connect(function()
+local targetUsername = Target.Text
+
+
+local players = game:GetService("Players")
+local targetPlayer = players:FindFirstChild(targetUsername)
+players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
+end)
+
+Kil.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobCheatEngine.lua'))()
+end)
+
+
+CFspeed = 100
+Ki.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
+	local Head = game.Players.LocalPlayer.Character:WaitForChild("Head")
+	Head.Anchored = true
+	if CFloop then CFloop:Disconnect() end
+	CFloop = RunService.Heartbeat:Connect(function(deltaTime)
+		local moveDirection = game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').MoveDirection * (CFspeed * deltaTime)
+		local headCFrame = Head.CFrame
+		local cameraCFrame = workspace.CurrentCamera.CFrame
+		local cameraOffset = headCFrame:ToObjectSpace(cameraCFrame).Position
+		cameraCFrame = cameraCFrame * CFrame.new(-cameraOffset.X, -cameraOffset.Y, -cameraOffset.Z + 1)
+		local cameraPosition = cameraCFrame.Position
+		local headPosition = headCFrame.Position
+
+		local objectSpaceVelocity = CFrame.new(cameraPosition, Vector3.new(headPosition.X, cameraPosition.Y, headPosition.Z)):VectorToObjectSpace(moveDirection)
+		Head.CFrame = CFrame.new(headPosition) * (cameraCFrame - cameraPosition) * CFrame.new(objectSpaceVelocity)
+	end)
+Ki.Visible = false
+K.Visible = true
+end)
+
+
+
+
+K.MouseButton1Click:Connect(function()
+	if CFloop then
+		CFloop:Disconnect()
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+		local Head = game.Players.LocalPlayer.Character:WaitForChild("Head")
+		Head.Anchored = false
+	end
+K.Visible = false
+Ki.Visible = true
+end)
+
+
+Ko.MouseButton1Click:Connect(function()
+local players = game:GetService("Players")
+local runService = game:GetService("RunService")
+local inputService = game:GetService("UserInputService")
+-- objects
+local player = players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid, rootPart = character:FindFirstChildWhichIsA("Humanoid"), character:WaitForChild("HumanoidRootPart")
+local camera = workspace.CurrentCamera
+-- variables
+local rootPartCFrame
+local flyObj = {
+	enabled = false,
+	keyInput = Enum.KeyCode.F3,
+	flySpeed = 3,
+	qeFly = true,
+
+	_navigation = {
+		upward = false,
+		downward = false,
+		forward = false,
+		backward = false,
+		rightward = false,
+		leftward = false,
+	}
+}
+-- main
+inputService.InputBegan:Connect(function(input, gameProcessedEvent)
+	if input.UserInputType == Enum.UserInputType.Keyboard and not (inputService:GetFocusedTextBox() and gameProcessedEvent) then
+		if input.KeyCode == flyObj.keyInput then
+			flyObj.enabled = not flyObj.enabled
+			rootPartCFrame = rootPart.CFrame
+		end
+	end
+end)
+
+runService.RenderStepped:Connect(function()
+	if not inputService:GetFocusedTextBox() and flyObj.enabled then
+		flyObj._navigation.upward = (flyObj.qeFly and inputService:IsKeyDown(Enum.KeyCode.Q))
+		flyObj._navigation.downward = (flyObj.qeFly and inputService:IsKeyDown(Enum.KeyCode.E))
+		flyObj._navigation.forward = inputService:IsKeyDown(Enum.KeyCode.W)
+		flyObj._navigation.backward = inputService:IsKeyDown(Enum.KeyCode.S)
+		flyObj._navigation.leftward = inputService:IsKeyDown(Enum.KeyCode.A)
+		flyObj._navigation.rightward = inputService:IsKeyDown(Enum.KeyCode.D)
+	end
+end)
+
+runService.Heartbeat:Connect(function(deltaTime)
+	character = player.Character
+	if not player.Character then return end
+
+	humanoid, rootPart = character:FindFirstChildWhichIsA("Humanoid"), character:WaitForChild("HumanoidRootPart")
+	if flyObj.enabled and (humanoid and rootPart) then
+		for _, animObj in ipairs(humanoid:GetPlayingAnimationTracks()) do animObj:Stop(0) end
+		local cameraOrientation = CFrame.fromOrientation(camera.CFrame:ToOrientation())
+		local calcFront, calcRight, calcTop = (cameraOrientation.LookVector), (cameraOrientation.RightVector), (cameraOrientation.UpVector)
+		local pressedDirection do
+			pressedDirection = Vector3.zero
+
+			for name, pressed in pairs(flyObj._navigation) do
+				if not pressed then
+					pressedDirection = pressedDirection + Vector3.zero
+				else
+					if name == "rightward" then
+						pressedDirection = pressedDirection + calcRight
+					elseif name == "upward" then
+						pressedDirection = pressedDirection + calcTop
+					elseif name == "forward" then
+						pressedDirection = pressedDirection + calcFront
+					elseif name == "leftward" then
+						pressedDirection = pressedDirection - calcRight
+					elseif name == "downward" then
+						pressedDirection = pressedDirection - calcTop
+					elseif name == "backward" then
+						pressedDirection = pressedDirection - calcFront
+					end
+				end
+			end
+			pressedDirection = pressedDirection * ((flyObj.flySpeed / 0.0305) * deltaTime)
+		end
+		local difference = (rootPartCFrame.Position - rootPart.Position)
+
+		rootPart.Anchored = false
+		humanoid:ChangeState(Enum.HumanoidStateType.Climbing)
+		character:TranslateBy(pressedDirection)
+		rootPart.CFrame = ((CFrame.identity + (rootPart.Position + difference)) * cameraOrientation)
+		rootPartCFrame = rootPart.CFrame
+		rootPart.AssemblyLinearVelocity, rootPart.AssemblyAngularVelocity = Vector3.zero, Vector3.zero
+	end
+end)
+end)
+
+
+
+local Noclipping = nil
+o.MouseButton1Click:Connect(function()
+o.Visible = false
+q.Visible = true
+Clip = false
+   wait(0.1)
+	local function NoclipLoop()
+		if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+					v.CanCollide = false
+				end
+			end
+		end
+   end
+	Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
+end)
+
+q.MouseButton1Click:Connect(function()
+o.Visible = true
+q.Visible = false
+if Noclipping then
+Noclipping:Disconnect()
+end
+Clip = true
+end)
+
+
+
+qw.MouseButton1Click:Connect(function()
+local MAMA = false -- false is Off; true is On
+
+
+function onKEYPress(actionName, userInputState, inputObject)
+    if userInputState == Enum.UserInputState.Begin then
+        if MAMA == false then
+             MAMA = true
+StarterGui:SetCore("SendNotification", {
+    Title = "NoClip: ON";
+    Text = "NoClip: ON"; 
+    Duration = 5;
+    Button1 = "OK";
+})
+              Clip = false
+   wait(0.1)
+	local function NoclipLoop()
+		if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+					v.CanCollide = false
+				end
+			end
+		end
+   end
+	Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
+        else
+            MAMA = false
+StarterGui:SetCore("SendNotification", {
+    Title = "NoClip: OFF";
+    Text = "NoClip: OFF"; 
+    Duration = 5;
+    Button1 = "OK";
+})
+            if Noclipping then
+Noclipping:Disconnect()
+end
+Clip = true
+        end
+    end
+end
+
+game.ContextActionService:BindAction("KEYPress", onKEYPress, false, Enum.KeyCode.F1)
+end)
+
+
+w.MouseButton1Click:Connect(function()
+local toggle = false -- false is Off; true is On
+
+function onKeyPress(actionName, userInputState, inputObject)
+    if userInputState == Enum.UserInputState.Begin then
+        if toggle == false then
+             toggle = true
+StarterGui:SetCore("SendNotification", {
+    Title = "CFLY: ON";
+    Text = "CFLY: ON"; 
+    Duration = 5;
+    Button1 = "OK";
+})
+              	game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
+	local Head = game.Players.LocalPlayer.Character:WaitForChild("Head")
+	Head.Anchored = true
+	if CFloop then CFloop:Disconnect() end
+	CFloop = RunService.Heartbeat:Connect(function(deltaTime)
+		local moveDirection = game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').MoveDirection * (CFspeed * deltaTime)
+		local headCFrame = Head.CFrame
+		local cameraCFrame = workspace.CurrentCamera.CFrame
+		local cameraOffset = headCFrame:ToObjectSpace(cameraCFrame).Position
+		cameraCFrame = cameraCFrame * CFrame.new(-cameraOffset.X, -cameraOffset.Y, -cameraOffset.Z + 1)
+		local cameraPosition = cameraCFrame.Position
+		local headPosition = headCFrame.Position
+
+		local objectSpaceVelocity = CFrame.new(cameraPosition, Vector3.new(headPosition.X, cameraPosition.Y, headPosition.Z)):VectorToObjectSpace(moveDirection)
+		Head.CFrame = CFrame.new(headPosition) * (cameraCFrame - cameraPosition) * CFrame.new(objectSpaceVelocity)
+	end)
+        else
+            toggle = false
+StarterGui:SetCore("SendNotification", {
+    Title = "CFLY: OFF";
+    Text = "CFLY: OFF"; 
+    Duration = 5;
+    Button1 = "OK";
+})
+            	if CFloop then
+		CFloop:Disconnect()
+		game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+		local Head = game.Players.LocalPlayer.Character:WaitForChild("Head")
+		Head.Anchored = false
+	end
+        end
+    end
+end
+
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.F2)
+end)
+end)
+
+
+
+
+
+
+
+Tab3Section:NewButton("Tracer", "ButtonInfo", function()
+local lplr = game.Players.LocalPlayer
+local camera = game:GetService("Workspace").CurrentCamera
+local CurrentCamera = workspace.CurrentCamera
+local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+
+_G.TeamCheck = false -- Use True or False to toggle TeamCheck
+
+for i,v in pairs(game.Players:GetChildren()) do
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(1,1,1)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = false
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end
+
+game.Players.PlayerAdded:Connect(function(v)
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(1,1,1)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = false
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end)
+end)
+
+negasSection:NewLabel("Mobile Tester: Scarlet_Phantom5")
+negasSection:NewLabel("UI using kavo ui library")
